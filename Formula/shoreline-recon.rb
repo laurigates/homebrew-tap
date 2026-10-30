@@ -1,14 +1,14 @@
 class ShorelineRecon < Formula
   desc "Water-aware photogrammetry and Gaussian splatting for shoreline structures"
   homepage "https://github.com/laurigates/shore-recon"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/laurigates/shore-recon/releases/download/v0.3.0/shoreline-recon-aarch64-apple-darwin.tar.xz"
-    sha256 "5658b9520f0d943d0e1d4786b77eaae1055af3dc1b1f69c5d097e8fd4f1d92b1"
+    url "https://github.com/laurigates/shore-recon/releases/download/v0.4.0/shoreline-recon-aarch64-apple-darwin.tar.xz"
+    sha256 "bf102a3b15e0d29fdb9bb4c107cea7fda360fc60f03c9df3f9b2c78477b85895"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/laurigates/shore-recon/releases/download/v0.3.0/shoreline-recon-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "6ac5fb3b45c05b0059cb8bcf812d4fb329de2ade2c862f7bf96dc7c5955a5962"
+    url "https://github.com/laurigates/shore-recon/releases/download/v0.4.0/shoreline-recon-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "60be7190ac6ca5ddd7b27af42ba6ea8d8895b8e3e60622811648322e318b88e2"
   end
   license "MIT"
   depends_on "colmap"
