@@ -3,8 +3,8 @@ class ShorelineRecon < Formula
   homepage "https://github.com/laurigates/shore-recon"
   version "0.7.0"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/laurigates/shore-recon/releases/download/v0.7.0/shoreline-recon-aarch64-apple-darwin.tar.xz"
-    sha256 "d7f39bba1b6d3a672b5fc4e4a530f6307eee5ad64df76793c6ed8254746b69c9"
+    url "https://github.com/laurigates/shore-recon/archive/refs/tags/v0.7.1.tar.gz"
+    sha256 "4da24e051623a8d1ad26f3dfe2e72f67a6291a6732dcf185ace2acab67be75ad"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/laurigates/shore-recon/releases/download/v0.7.0/shoreline-recon-x86_64-unknown-linux-gnu.tar.xz"
